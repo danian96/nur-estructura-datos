@@ -1,0 +1,5 @@
+#summary Esta página contiene todos los prácticos de estructura de datos
+
+= Intro =
+
+Aquí los prácticos de estructura de datos 2013
