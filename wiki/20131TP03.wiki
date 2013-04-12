@@ -1,0 +1,17 @@
+#summary Esta página muestra la descripción del práctico 3 de la materia de estructura de datos. Este práctico debe entregarse en fecha Viernes 19 de abril de 2013.
+
+
+= Trabajo Práctico 3 =
+
+Escribir un programa que pueda dibuje en la pantalla 5 árboles de fractal de diferente tamaño dispuestos en un campo verde.
+
+== Preparación del campo ==
+
+Hacer una ventana de 800x600 y colocar la línea de horizonte en X=200. Todo lo que está encima de esa línea se puede pintar azul cielo.
+Todo lo que está por debajo de la línea se puede pintar verde campo.
+
+Usted puede colocar cualquier otro dibujo de fondo.
+
+== Dibujo de los árboles ==
+
+Se debe utilizar la base de las fórmulas según lo indicado en la figura
