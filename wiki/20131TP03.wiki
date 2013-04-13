@@ -3,7 +3,7 @@
 
 = Trabajo Práctico 3 =
 
-Escribir un programa que pueda dibuje en la pantalla 5 árboles de fractal de diferente tamaño dispuestos en un campo verde.
+Escribir un programa que dibuje en la pantalla 5 árboles de fractal de diferente tamaño dispuestos en un campo verde.
 
 == Preparación del campo ==
 
@@ -17,3 +17,22 @@ Usted puede colocar cualquier otro dibujo de fondo.
 Se debe utilizar la base de las fórmulas según lo indicado en la siguiente figura:
 
 http://nur-estructura-datos.googlecode.com/svn/wiki/images/formulas.png
+
+Desarrollemos esto, lo ideal es fabricar una función que haga lo siguiente:
+
+f(x1, y1, x2, y2, n)
+
+"La función f crea la primera rama del árbol del punto x1,y1 a x2,y2 y luego crea n ramas subsecuentes siguiendo el principio del fractal"
+
+Para el caso general queremos obtener el valor de x3,y3. La otra rama se puede obtener de la misma manera.
+
+  # Se obtiene el ángulo de beta. Este ángulo es el arctan de la pendiente que forman los puntos x1,y1 y x2,y2.
+  # beta = arctan( (y2 - y1) / (x2 - x1) )
+  # Ese ángulo nos interesa porque solamente al aumentarle el ángulo de alpha tenemos la inclinación que necesitamos para entontrar x3,y3
+  # entonces tenemos el angulo final = alpha + beta
+  
+Una vez que tenemos el angulo final, tenemos que calcular t
+
+  * t = raíz cuadrada ( (x2 - x1)^2 + (y2 - y1)^2 )
+  * y el largo de nuestra rama es entonces 0.8 t
+  
