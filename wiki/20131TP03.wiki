@@ -14,4 +14,6 @@ Usted puede colocar cualquier otro dibujo de fondo.
 
 == Dibujo de los árboles ==
 
-Se debe utilizar la base de las fórmulas según lo indicado en la figura
+Se debe utilizar la base de las fórmulas según lo indicado en la siguiente figura:
+
+http://heekscad.googlecode.com/svn/wiki/images/myimage.png
