@@ -73,7 +73,7 @@ http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelFirstRound.png
 === Basic Zoomed ===
 
 La imagen típica ocn un pequeño zoom
-{{{{
+{{{
 mandelbrot
 # Basic and zoomed
 
