@@ -1,0 +1,97 @@
+#summary Esta página muestra la descripción del práctico 4 de la materia de estructura de datos. Este práctico debe entregarse en fecha Viernes 3 de mayo de 2013.
+
+
+= Trabajo Práctico 4 =
+
+Escribir un programa que dibuje en la pantalla el fractal de Mandelbrot descrito por dos coordenadas en un archivo.
+
+== Fractal de Mandelbrot ==
+
+EL fractal de Mandelbrot se encuentra ampliamente descrito en el PDF del curso o en varios enlaces de Internet. Especialmente el de Wikipedia.
+
+El espacio de Mandelbrot es un plano complejo que se define por el punto extremo izquierdo arriba y el punto extremo derecho abajo.
+
+El espacio del dibujo es siempre 600x400 píxeles en la pantalla del panel de dibujo.
+
+== Formato del archivo ==
+
+El archivo debe tener el formato siguiente:
+
+mandelbrot
+# Comment lines begin with numeral
+# Signature must be mandelbrot
+
+# left and top coordinates are first
+-2.0 1.5
+
+# right and bottom coordinates are last
+2.0 -1.5
+
+La primera línea del archivo es obligatoriamente la palabra mandelbrot, el archivo que NO tenga esa firma entonces NO debe ser leído y debe mostrar el error.
+
+== Ejemplos para verificación ==
+
+=== Basic ===
+
+mandelbrot
+# Comment lines begin with numeral
+# Signature must be mandelbrot
+
+# left and top coordinates are first
+-2.0 1.5
+
+# right and bottom coordinates are last
+2.0 -1.5
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelBasic.png
+
+=== Solo primer redondo ===
+
+mandelbrot
+# http://qkxyq.com/mandelbrot.cgi/gallery
+# top left: (-1.45, 0.45)
+# top right: (-0.55, 0.45)
+# bottom left: (-1.45, -0.45)
+# bottom right: (-0.55, -0.45)
+-1.45 0.45
+-0.55 -0.45
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelFirstRound.png
+
+=== Basic Zoomed ===
+
+mandelbrot
+# Basic and zoomed
+
+# left and top coordinates are first
+-2.0 0.75
+
+# right and bottom coordinates are last
+0.5 -0.75
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelBasicZoomed.png
+
+=== Pequeña porción ===
+
+mandelbrot
+# http://qkxyq.com/mandelbrot.cgi/gallery
+# top left: (0.35, 0.2675)
+# top right: (0.47, 0.2675)
+# bottom left: (0.35, 0.1325)
+# bottom right: (0.47, 0.1325)
+0.35 0.2675
+0.47 0.1325
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelSmallPortion.png
+
+=== Arrow ===
+
+mandelbrot
+# http://qkxyq.com/mandelbrot.cgi/gallery?14,r42
+# top left: (0.2495, 0.0275)
+# bottom right: (0.3045, -0.0275)
+0.2495 0.0275
+0.3045 -0.0275
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelArrow.png
+  
