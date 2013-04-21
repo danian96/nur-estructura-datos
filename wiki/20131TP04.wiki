@@ -17,6 +17,13 @@ El espacio del dibujo es siempre 600x400 píxeles en la pantalla del panel de di
 
 El archivo debe tener el formato siguiente:
 
+  * La primera linea debe tener la palabra mandelbrot, el archivo que NO tenga esa firma entonces NO debe ser leído y debe mostrar el error.
+  * Las lineas pueden tener lineas de comentario que comienzan con el símbolo #
+  * Pueden haber líneas en blanco
+  * Luego de la firma, solamente existen dos líneas de datos: la primera que tiene el punto extremo izquierdo arriba en el plano complejo y la segunda que tiene el punto extremo derecho abajo en el plano complejo.
+  
+Un ejemplo se puede ver aquí:
+{{{  
 mandelbrot
 # Comment lines begin with numeral
 # Signature must be mandelbrot
@@ -26,13 +33,14 @@ mandelbrot
 
 # right and bottom coordinates are last
 2.0 -1.5
-
-La primera línea del archivo es obligatoriamente la palabra mandelbrot, el archivo que NO tenga esa firma entonces NO debe ser leído y debe mostrar el error.
+}}}
 
 == Ejemplos para verificación ==
 
 === Basic ===
 
+Archivo con la imágen típica del fractal de Benoît Mandelbrot
+{{{
 mandelbrot
 # Comment lines begin with numeral
 # Signature must be mandelbrot
@@ -42,11 +50,15 @@ mandelbrot
 
 # right and bottom coordinates are last
 2.0 -1.5
+}}}
 
 http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelBasic.png
 
 === Solo primer redondo ===
 
+Un pequeño zoom a la zona de la izquierda del círculo menor
+
+{{{
 mandelbrot
 # http://qkxyq.com/mandelbrot.cgi/gallery
 # top left: (-1.45, 0.45)
@@ -55,11 +67,13 @@ mandelbrot
 # bottom right: (-0.55, -0.45)
 -1.45 0.45
 -0.55 -0.45
-
+}}}
 http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelFirstRound.png
 
 === Basic Zoomed ===
 
+La imagen típica ocn un pequeño zoom
+{{{{
 mandelbrot
 # Basic and zoomed
 
@@ -68,11 +82,14 @@ mandelbrot
 
 # right and bottom coordinates are last
 0.5 -0.75
+}}}
 
 http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelBasicZoomed.png
 
 === Pequeña porción ===
 
+Una pequeña porción del fractal con un zoom importante. Se puede ver que otras figuras se forman
+{{{
 mandelbrot
 # http://qkxyq.com/mandelbrot.cgi/gallery
 # top left: (0.35, 0.2675)
@@ -81,17 +98,19 @@ mandelbrot
 # bottom right: (0.47, 0.1325)
 0.35 0.2675
 0.47 0.1325
-
+}}}
 http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelSmallPortion.png
 
 === Arrow ===
 
+En el lugar donde se juntan las dos curvas se forma una flecha:
+{{{
 mandelbrot
 # http://qkxyq.com/mandelbrot.cgi/gallery?14,r42
 # top left: (0.2495, 0.0275)
 # bottom right: (0.3045, -0.0275)
 0.2495 0.0275
 0.3045 -0.0275
-
+}}}
 http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelArrow.png
   
