@@ -42,8 +42,6 @@ http://nur-estructura-datos.googlecode.com/svn/wiki/images/tp2013_1_5_dcGui.png
 
 Existen varios algoritmos a tomar en cuenta al momento de realizar este programa. Aquí se pueden ver los más característicos que seguramente tendrán que realizar.
 
-
-
 {{{
 mandelbrot
 # http://qkxyq.com/mandelbrot.cgi/gallery
@@ -54,49 +52,3 @@ mandelbrot
 -1.45 0.45
 -0.55 -0.45
 }}}
-http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelFirstRound.png
-
-=== Basic Zoomed ===
-
-La imagen típica ocn un pequeño zoom
-{{{
-mandelbrot
-# Basic and zoomed
-
-# left and top coordinates are first
--2.0 0.75
-
-# right and bottom coordinates are last
-0.5 -0.75
-}}}
-
-http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelBasicZoomed.png
-
-=== Pequeña porción ===
-
-Una pequeña porción del fractal con un zoom importante. Se puede ver que otras figuras se forman
-{{{
-mandelbrot
-# http://qkxyq.com/mandelbrot.cgi/gallery
-# top left: (0.35, 0.2675)
-# top right: (0.47, 0.2675)
-# bottom left: (0.35, 0.1325)
-# bottom right: (0.47, 0.1325)
-0.35 0.2675
-0.47 0.1325
-}}}
-http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelSmallPortion.png
-
-=== Arrow ===
-
-En el lugar donde se juntan las dos curvas se forma una flecha:
-{{{
-mandelbrot
-# http://qkxyq.com/mandelbrot.cgi/gallery?14,r42
-# top left: (0.2495, 0.0275)
-# bottom right: (0.3045, -0.0275)
-0.2495 0.0275
-0.3045 -0.0275
-}}}
-http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelArrow.png
-  
