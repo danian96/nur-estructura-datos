@@ -9,7 +9,7 @@ Aquí los prácticos de estructura de datos 2013:
   # [https://code.google.com/p/nur-estructura-datos/wiki/TP2 Práctico recurrencia]: Viernes 5 Abr
   # [https://code.google.com/p/nur-estructura-datos/wiki/20131TP03 Práctico arbol fractal]: Viernes 19 Abr
   # [https://code.google.com/p/nur-estructura-datos/wiki/20131TP04 Práctico mandelbrot]: Viernes 3 May
-  # [https://code.google.com/p/nur-estructura-datos/wiki/20131TP05 Práctico juego círculos]: Martes 14 May
-  # Práctico pinball: Viernes 24 May
+  # [https://code.google.com/p/nur-estructura-datos/wiki/20131TP05 Práctico juego círculos]: Viernes 17 May
+  # Práctico pinball: Martes 28 May
   # Práctico gestion jerarquías: Martes 11 Jun
   # Práctico bonus: Viernes 5 Jul
