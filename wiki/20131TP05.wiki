@@ -1,4 +1,4 @@
-#summary Esta página muestra la descripción del práctico 5 de la materia de estructura de datos. Este práctico debe entregarse en fecha Viernes 17 de mayo de 2013.
+#summary Esta página muestra la descripción del práctico 5 de la materia de estructura de datos. Este práctico debe entregarse en fecha Martes 14 de mayo de 2013.
 
 
 = Trabajo Práctico 5 =
