@@ -38,17 +38,82 @@ Finalmente, se crean las clases encargadas de la interfase gráfica que utilizan
 
 http://nur-estructura-datos.googlecode.com/svn/wiki/images/tp2013_1_5_dcGui.png
 
+=== Patrón observer ===
+
+En este práctico debe hacer uso inteligente del patrón observer para que se actualicen los datos del tablero todo el tiempo en el marcador y
+en el cronómetro. Además que las figuras deben actualizar su lugar.
+
 == Algoritmos que intervienen en el juego ==
 
 Existen varios algoritmos a tomar en cuenta al momento de realizar este programa. Aquí se pueden ver los más característicos que seguramente tendrán que realizar.
 
+=== El rebote de las figuras ===
+
+Lo primero que se debe definir es que la figura se mueve con una velocidad en una dirección dada. Se puede ver en la clase *Figure* que todas
+las figuras tienen esta característica. Luego, solamente debemos jugar con el ángulo para averiguar si hay rebote o no, de la manera siguiente:
+
 {{{
-mandelbrot
-# http://qkxyq.com/mandelbrot.cgi/gallery
-# top left: (-1.45, 0.45)
-# top right: (-0.55, 0.45)
-# bottom left: (-1.45, -0.45)
-# bottom right: (-0.55, -0.45)
--1.45 0.45
--0.55 -0.45
+	private double calculateBounceAngle() {
+		double bounceAngle = angleDirection;
+		double moduloAngle = 0.0;
+		double divideResult = Math.floor( Math.abs(angleDirection)/(Math.PI / 2.0));
+		moduloAngle = angleDirection - divideResult * (Math.PI / 2.0);
+		if ((int)divideResult % 2 == 0) 
+		{
+			moduloAngle = Math.PI / 2.0 - moduloAngle;
+			bounceAngle = angleDirection + 2.0 * moduloAngle + Math.PI;
+		} 
+		else 
+		{
+			bounceAngle = angleDirection - 2.0 * moduloAngle;
+		}
+		
+		return bounceAngle;
+	}
+}}}
+
+Todos los ángulos están en radianes.
+
+=== El cronómetro en el panel de status ===
+
+Como se vio en clases, Java permite realizar varias tareas al mismo tiempo. Ese es el caso de nuestro cronómetro que
+debe actualizarse todo el tiempo independientemente de la aplicación. Aquí se puede ver cómo se declara el proceso
+para que coloque en el JLABEL el texto correspondiente al tiempo.
+
+*Importante*: Observe que NO se puede parar un thread (el método stop o suspend no se deben utilizar). Sino que se coloca una bandera (boolean)
+que indica si el thread debe continuar o no.
+
+{{{
+	public void startTimer() {
+		pleaseStop = false;
+		Thread timer = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				runTimer();
+			}
+			
+		});
+		
+		timer.start();
+	}
+	
+	public void stopTimer() {
+		pleaseStop = true;
+	}
+
+	protected void runTimer() {
+		startTime = System.currentTimeMillis();
+		
+		while(!pleaseStop) {
+			long currentTime = System.currentTimeMillis();
+			double seconds = (currentTime - startTime) / 1000.0;
+			this.lbltiempo.setText(String.format("%1$,.2f", seconds));
+			try {
+				Thread.sleep(10);
+			} catch (InterruptedException e) {
+				;
+			}
+		}
+	}
 }}}
