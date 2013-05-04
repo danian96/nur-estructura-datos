@@ -1,0 +1,102 @@
+#summary Esta página muestra la descripción del práctico 5 de la materia de estructura de datos. Este práctico debe entregarse en fecha Viernes 17 de mayo de 2013.
+
+
+= Trabajo Práctico 5 =
+
+Escribir un programa que permita al usuario jugar a cazar una lista dinámica de figuras. 
+
+== El juego ==
+
+El juego consiste en un tablero de 600x600 donde se colocarán las figuras. Los bordes del tablero se consideran paredes donde las figuras rebotan.
+
+Al comenzar un nuevo juego, el programa debe pedir la cantidad de figuras (cuadrados o círculos) que se desean colocar en el tablero.
+
+El programa coloca esa cantidad de figuras (repartidas entre cuadrados y círculos) en posiciones al azar dentro del tablero y le asigna a cada una de estas figuras una dirección al azar.
+
+Luego el usuario debe mandar al juego que se inicie. En ese momento comienzan a suceder dos cosas: las figuras comienzan a moverse en la dirección
+que se les ha asignado, rebotando cuando llegan a las paredes del tablero; y por otro lado, un cronómetro se muestra en la parte derecha indicando 
+el tiempo que le toma al jugador terminar el juego.
+
+Para terminar el juego el usuario debe hacer clic en cada una de las figuras para quitarlas del tablero.
+
+Aquí se puede ver un ejemplo de su funcionamiento:
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/practico5.gif
+
+== Arquitectura del juego ==
+
+La arquitectura propuesta consiste en un programa a dos capas que tiene tres partes. La primera es la estructura que alberga a las figuras. Se
+tiene la clase abstracta Figura que define todo lo necesario para una figura y se especializa en cuadrado y círculo:
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/tp2013_1_5_dcFigure.png
+
+La segunda estructura es el tablero que mantiene una cadena de figuras:
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/tp2013_1_5_dcBoard.png
+
+Finalmente, se crean las clases encargadas de la interfase gráfica que utilizan al tablero para mostrarlo:
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/tp2013_1_5_dcGui.png
+
+== Algoritmos que intervienen en el juego ==
+
+Existen varios algoritmos a tomar en cuenta al momento de realizar este programa. Aquí se pueden ver los más característicos que seguramente tendrán que realizar.
+
+
+
+{{{
+mandelbrot
+# http://qkxyq.com/mandelbrot.cgi/gallery
+# top left: (-1.45, 0.45)
+# top right: (-0.55, 0.45)
+# bottom left: (-1.45, -0.45)
+# bottom right: (-0.55, -0.45)
+-1.45 0.45
+-0.55 -0.45
+}}}
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelFirstRound.png
+
+=== Basic Zoomed ===
+
+La imagen típica ocn un pequeño zoom
+{{{
+mandelbrot
+# Basic and zoomed
+
+# left and top coordinates are first
+-2.0 0.75
+
+# right and bottom coordinates are last
+0.5 -0.75
+}}}
+
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelBasicZoomed.png
+
+=== Pequeña porción ===
+
+Una pequeña porción del fractal con un zoom importante. Se puede ver que otras figuras se forman
+{{{
+mandelbrot
+# http://qkxyq.com/mandelbrot.cgi/gallery
+# top left: (0.35, 0.2675)
+# top right: (0.47, 0.2675)
+# bottom left: (0.35, 0.1325)
+# bottom right: (0.47, 0.1325)
+0.35 0.2675
+0.47 0.1325
+}}}
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelSmallPortion.png
+
+=== Arrow ===
+
+En el lugar donde se juntan las dos curvas se forma una flecha:
+{{{
+mandelbrot
+# http://qkxyq.com/mandelbrot.cgi/gallery?14,r42
+# top left: (0.2495, 0.0275)
+# bottom right: (0.3045, -0.0275)
+0.2495 0.0275
+0.3045 -0.0275
+}}}
+http://nur-estructura-datos.googlecode.com/svn/wiki/images/mandelArrow.png
+  
