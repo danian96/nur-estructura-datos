@@ -1,5 +1,4 @@
 #summary Esta página muestra la descripción del segundo práctico de la materia de estructura de datos
-#labels Featured
 
 
 = Trabajo Práctico 2 =
