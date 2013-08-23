@@ -1,5 +1,5 @@
 #summary Esta página contiene todos los prácticos de estructura de datos
-#labels practicos
+#labels Featured
 
 
 = Practicos del semestre 2013-1 =
