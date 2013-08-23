@@ -1,7 +1,13 @@
 #summary Esta página contiene todos los prácticos de estructura de datos
 #labels practicos
 
-= Intro =
+
+= Practicos del semestre 2013-1 =
+
+Aquí los prácticos de estructura de datos 2013:
+
+  # [https://code.google.com/p/nur-estructura-datos/wiki/TP1 Carrera]: Martes 27 de agosto de 2013
+= Practicos del semestre 2013-1 =
 
 Aquí los prácticos de estructura de datos 2013:
 
