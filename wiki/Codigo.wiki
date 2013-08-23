@@ -13,21 +13,21 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-== Chat ==
+== Hanoi c/Observer ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-== Chat ==
+== Recorrido BFS ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-== Chat ==
+== Algoritmo Dijkstra ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
