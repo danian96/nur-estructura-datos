@@ -20,7 +20,7 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-== Recorrido BFS ==
+== Recorrido Panal BFS ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
@@ -34,21 +34,14 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-== Chat ==
+== Fractal de von Koch Sierpinsky ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-== Chat ==
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-== Chat ==
+== Juego de 3 en raya con árboles ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
