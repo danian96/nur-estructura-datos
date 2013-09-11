@@ -13,27 +13,34 @@ Ver el [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrun
 == Chat ==
 
 Este programa permite ver la conexión en redes utilizando sockets.
+Ver el [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrunk%2Fprogramas%2Fchat%2Fsrc%2Fchat fuente].
 
 == Hanoi c/Observer ==
 
 Ver la resolución de Hanoi con un observer en una aplicación gráfica completa.
+Ver el [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrunk%2Fprogramas%2Fhanoi_Observer%2Fsrc fuente].
 
 == Recorrido Panal BFS ==
 
 Es una aplicación que hace uso de BFS para encontrar el camino más corto.
+Ver el [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrunk%2Fprogramas%2Fpanal_Bfs%2Fsrc fuente].
 
 == Algoritmo Dijkstra ==
 
 Programación del algoritmo de Dijkstra para encontrar el camino más corto en un grafo con pesos diferentes en los arcos.
+Ver el [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrunk%2Fprogramas%2Flaberinto_Dijkstra fuente].
 
 == Fractal de von Koch Sierpinsky ==
 
-Programa que muestra el fractal de VOn Koch y el de Sierpinsky de manera gráfica
+Programa que muestra el fractal de VOn Koch y el de Sierpinsky de manera gráfica.
+Ver el [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrunk%2Fprogramas%2Fvonkochsierpinsky%2Fsrc fuente].
 
 == Juego de 3 en raya con árboles ==
 
 Juego de tres en raya donde la inteligencia del juego está programada en un árbol. PAra un juego sencillo se tienen muchísimas posibilidades.
+Ver el [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrunk%2Fprogramas%2FtresEnRaya_Arbol%2Fsrc fuente].
 
 == Ejemplo de implementación DAO ==
 
 Ejemplo de la implementación de acceso a datos en Java.
+Ver el [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrunk%2Fprogramas%2FejemploDao%2Fsrc fuente].
