@@ -2,11 +2,13 @@
 #labels Featured
 
 
-= Practicos del semestre 2013-1 =
+= Practicos del semestre 2013-2 =
 
 Aquí los prácticos de estructura de datos 2013:
 
-  # [https://code.google.com/p/nur-estructura-datos/wiki/TP1 Carrera]: Martes 27 de agosto de 2013
+  # [https://code.google.com/p/nur-estructura-datos/wiki/20132TP01 Carrera]: Martes 27 de agosto de 2013
+  # [https://code.google.com/p/nur-estructura-datos/wiki/20132TP02 Ocho reinas]: Viernes 13 de septiembre de 2013
+  
 = Practicos del semestre 2013-1 =
 
 Aquí los prácticos de estructura de datos 2013:
