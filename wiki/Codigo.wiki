@@ -5,6 +5,13 @@
 
 Cada programa está descrito muy brevemente. Todos los programas pueden bajarse y virtualmente ejecutarse en el acto, salvo alguna configuración muy pequeña.
 
+== Quicksort Persona ==
+
+Es un pequeñisimo programa que muestra el uso de Observer y Comparator con el algoritmo de Quicksort para ordenar
+una lista de personas por altura y luego por nombre.
+
+El código está [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrunk%2Fprogramas%2FquicksortPersona%2Fsrc aquí]
+
 == Catch Me ==
 
 Pequeño juego donde el jugador debe apretar sobre los elmeentos que salen en el tablero. 
