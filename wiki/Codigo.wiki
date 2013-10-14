@@ -5,6 +5,12 @@
 
 Cada programa está descrito muy brevemente. Todos los programas pueden bajarse y virtualmente ejecutarse en el acto, salvo alguna configuración muy pequeña.
 
+== Photo Puzzle ==
+
+Es un pequeñisimo programa que muestra el uso de Observer y el manejo de Mouse con los listeners MouseListener y MouseMotionListener.
+
+El código está [https://code.google.com/p/nur-estructura-datos/source/browse/#svn%2Ftrunk%2Fprogramas%2FphotoPuzzle%2Fsrc aquí]
+
 == Quicksort Persona ==
 
 Es un pequeñisimo programa que muestra el uso de Observer y Comparator con el algoritmo de Quicksort para ordenar
