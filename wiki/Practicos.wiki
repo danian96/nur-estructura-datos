@@ -7,7 +7,11 @@
 Aquí los prácticos de estructura de datos 2013:
 
   # [https://code.google.com/p/nur-estructura-datos/wiki/20132TP01 Carrera]: Martes 27 de agosto de 2013
-  # [https://code.google.com/p/nur-estructura-datos/wiki/20132TP02 Ocho reinas]: Viernes 13 de septiembre de 2013
+  # [https://code.google.com/p/nur-estructura-datos/wiki/20132TP02 Ocho reinas]: Viernes 13 de septiembre de 
+  # [https://code.google.com/p/nur-estructura-datos/wiki/20132TP03 Quicksort y Comparator]: Viernes 27 de septiembre de 2013
+  # [https://code.google.com/p/nur-estructura-datos/wiki/20132TP04 Photo Puzzle]: Martes 8 de octubre de 2013
+  # [https://code.google.com/p/nur-estructura-datos/wiki/20132TP05 Smart Chat]: Martes 22 de octubre de 2013
+  # [https://code.google.com/p/nur-estructura-datos/wiki/20132TP06 Evaluator]: Martes 5 de noviembre de 2013
   
 = Practicos del semestre 2013-1 =
 
